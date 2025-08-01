@@ -1,0 +1,31 @@
+{
+  "name": "terminal-builder",
+  "version": "1.0.0",
+  "description": "Create terminal interfaces across console, web, and app with just 1 JSON file",
+  "scripts": {
+    "trmbuild:console": "node src/console.js",
+    "trmbuild:window": "electron . src/window.js",
+    "trmbuild:web": "serve src/ui/web",
+    "trmbuild:ui": "node src/components/writeUI.js"
+  },
+  "keywords": [
+    "terminal",
+    "terminal-builder",
+    "cli",
+    "electron",
+    "ui",
+    "diy-os",
+    "javascript"
+  ],
+  "author": "Penguin", 
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "chalk": "^5.4.1",
+    "electron": "^37.1.0",
+    "serve": "^14.2.4"
+  },
+  "files": [
+    "src"
+  ]
+}

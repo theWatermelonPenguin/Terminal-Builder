@@ -1,0 +1,29 @@
+
+  <div style="background-color: #000000; color: #00FF00; padding: 10px; font-family: monospace;">
+    <h1>The system</h1>
+    <div class="terminal-body" id="terminal-body">
+      <div>$ Welcome to Terminal Builder!</div>
+    </div>
+    <div>
+      <span id="input-prefix">$</span>
+      <input type="text" id="terminal-input" placeholder="Type your command here..." autofocus />
+    </div>
+    <script>
+      const commands = [{"prompt":"hello","response":"hi there!"},{"prompt":"whoami","response":"you are a guest user"},{"prompt":"whereami","response":"you are here"},{"prompt":"what is this","response":"this is terminal builder"}];
+      const input = document.getElementById('terminal-input');
+      const body = document.getElementById('terminal-body');
+
+      input.addEventListener('keydown', function(e) {
+        if (e.key === 'Enter') {
+          const userInput = input.value;
+          const match = commands.find(c => c.prompt === userInput);
+          const response = match ? match.response : "Huh? Command not recognized!";
+          const out = document.createElement('div');
+          out.innerHTML = '$ ' + userInput + '<br>' + response;
+          body.appendChild(out);
+          input.value = '';
+          body.scrollTop = body.scrollHeight;
+        }
+      });
+    </script>
+  </div>

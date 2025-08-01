@@ -1,0 +1,29 @@
+{
+  "window": {
+    "title": "The system",
+    "theme": "green"
+  },
+  "input": {
+    "prefix": "$",
+    "unknownCommandMessage": "Huh? Command not recognized!",
+    "placeholder": "Type your command here..."
+  },
+  "commands": [
+    {
+      "prompt": "hello",
+      "response": "hi there!"
+    },
+    {
+      "prompt": "whoami",
+      "response": "you are a guest user"
+    },
+    {
+      "prompt": "whereami",
+      "response": "you are here"
+    },
+    {
+      "prompt": "what is this",
+      "response": "this is terminal builder"
+    }
+  ]
+}

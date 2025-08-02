@@ -1,6 +1,6 @@
 {
   "name": "trmbuild",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Terminal Builder - Create terminal interfaces across console, web, and app with just 1 JSON file",
   "scripts": {
     "trmbuild:console": "node src/console.js",
@@ -17,13 +17,14 @@
     "diy-os",
     "javascript"
   ],
-  "author": "Penguin", 
-  "license": "ISC",
+  "author": "Penguin",
+  "license": "MIT",
   "type": "module",
   "dependencies": {
     "chalk": "^5.4.1",
     "electron": "^37.1.0",
-    "serve": "^14.2.4"
+    "serve": "^14.2.4",
+    "trmbuild": "^1.0.0"
   },
   "files": [
     "src"

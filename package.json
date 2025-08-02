@@ -1,7 +1,7 @@
 {
-  "name": "terminal-builder",
+  "name": "trmbuild",
   "version": "1.0.0",
-  "description": "Create terminal interfaces across console, web, and app with just 1 JSON file",
+  "description": "Terminal Builder - Create terminal interfaces across console, web, and app with just 1 JSON file",
   "scripts": {
     "trmbuild:console": "node src/console.js",
     "trmbuild:window": "electron . src/window.js",

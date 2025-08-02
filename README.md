@@ -1,4 +1,4 @@
-# Terminal Builder
+# Terminal Builder (trmbuild)
 Create terminal interfaces across console, web, and app with just 1 JSON file
 
 # Features

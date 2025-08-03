@@ -13,11 +13,11 @@ export default function launchWindow() {
       width: 800,
       height: 600,
       webPreferences: {
-        preload: path.join(__dirname, '../ui/desktop/renderer.js') // optional
+        preload: path.join(__dirname, '../ui/window/renderer.js') // optional
       }
     });
 
-    win.loadFile(path.join(__dirname, '../ui/desktop/terminal.html'));
+    win.loadFile(path.join(__dirname, '../ui/window/terminal.html'));
 
     // Optional: reopen window on macOS when dock icon clicked
     app.on('activate', () => {

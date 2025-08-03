@@ -1,0 +1,30 @@
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="140"
+  height="40"
+  viewBox="0 0 140 40"
+  role="img"
+  aria-label="Terminal Builder icon"
+>
+  <rect width="140" height="40" fill="#0d1117" rx="6" ry="6" />
+  <text
+    x="16"
+    y="26"
+    fill="#ffb347"
+    font-family="'Fira Code', monospace"
+    font-size="20"
+    font-weight="bold"
+  >
+    &gt;
+  </text>
+  <text
+    x="36"
+    y="26"
+    fill="#c9d1d9"
+    font-family="'Fira Code', monospace"
+    font-size="20"
+    font-weight="normal"
+  >
+    trmbuild
+  </text>
+</svg>

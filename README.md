@@ -1,9 +1,14 @@
-# Terminal Builder (trmbuild)
+
+<p align="center">
+    <img src="assets/trmbuild-icon.svg" alt="Icon" width="400" />
+</p>
+
+
 Create terminal interfaces across console, web, and app with just 1 JSON file
 
 # Features
 
-- Create your own terminal in just 1 JSON file. No organization headaches
+- Create your own terminal in just 1 JSON file. No organizational headaches
 - Easy to use and learn
 - Can output in the console (eg. Windows Powershell), in a window (using Electron) or in the browser (using Serve)
 
@@ -12,7 +17,7 @@ Create terminal interfaces across console, web, and app with just 1 JSON file
 
 Requirements: 
 - Node.js version 16 or higher
-- NPM (Comes with Node.js install. No current support for yarn and other package managers)
+- npm (Comes with Node.js install. No current support for yarn and other package managers)
 
 ## 1. Install the package
 
@@ -23,9 +28,8 @@ npm install trmbuild
 
 ## 2. Try it out
 
-Currently we do not have documentation (will come soon).
-So for now just copy the [`terminal.json`](./terminal.json) file from the repo and try it out
-You can place the [`terminal.json`](./terminal.json) file anywhere in your project directory
+Refer to our [docs](./docs/) for detailed instructions on writing terminal JSON. Or simply copy the [`terminal.json`](./terminal.json) file from the repo root and place it anywhere within your project where terminal-builder (trmbuild) is installed.
+
 Once installed, build the ui
 ```bash
 npm run trmbuild:ui

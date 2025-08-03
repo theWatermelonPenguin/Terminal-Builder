@@ -7,6 +7,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Added
+
+- Terminal Builder SVG icon on readme for visual quality
+
+### Fixed
+
+- Fixed minor grammar issues in the readme
 ---
 
 ## [1.1.1] - 2025-08-02

@@ -1,3 +1,12 @@
+# 2.0.0 (2025-08-03)
+
+
+### Bug Fixes
+
+* fixed workflow to work on push to master ([2a1874e](https://github.com/theWatermelonPenguin/Terminal-Builder/commit/2a1874eb2c23aabfba3e5fcbd6eca882a00f0485))
+
+
+
 # Changelog
 
 All notable changes to this project will be documented in this file.

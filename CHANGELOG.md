@@ -7,13 +7,19 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+---
+
+## [1.2.1] -2025-08-03
+
 ### Added
 
-- Terminal Builder SVG icon on readme for visual quality
+- New `"shared"` block for using configurations across all 3 output modes
+- Documentation for new `"shared"` block
+- Terminal Builder SVG icon on README for visual quality
 
 ### Fixed
 
-- Fixed minor grammar issues in the readme
+- Fixed minor grammar issues in the README
 ---
 
 ## [1.1.1] - 2025-08-02

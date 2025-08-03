@@ -5,6 +5,7 @@ import { mode } from "../utils/findMode.js";
 import { shared } from "../utils/selectShared.js"
 import fs from 'fs';
 import path from 'path';
+import yaml from "js-yaml";
 
 const parsedConfig = getParsedConfig();
 

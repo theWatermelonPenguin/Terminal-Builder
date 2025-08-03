@@ -8,7 +8,7 @@ export function findTerminalConfigs(dir, found = []) {
     const fullPath = path.join(dir, entry.name);
     if (entry.isDirectory()) {
       findTerminalConfigs(fullPath, found);
-    } else if (entry.isFile() && entry.name === 'terminal.json') {
+    } else if (entry.isFile() && entry.name === 'terminal.yaml') {
       found.push(fullPath);
     }
   }

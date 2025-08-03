@@ -24,7 +24,8 @@
   "dependencies": {
     "chalk": "^5.4.1",
     "electron": "^37.1.0",
-    "http-server": "^14.1.1"
+    "http-server": "^14.1.1",
+    "js-yaml": "^4.1.0"
   },
   "files": [
     "src"

@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Added
+
+- Github Actions workflow to automate changelog generation
+
 ---
 
 ## [2.0.0] - 2025-08-03

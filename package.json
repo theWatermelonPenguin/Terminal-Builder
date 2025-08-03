@@ -29,5 +29,8 @@
   },
   "files": [
     "src"
-  ]
+  ],
+  "devDependencies": {
+    "conventional-changelog-cli": "^5.0.0"
+  }
 }

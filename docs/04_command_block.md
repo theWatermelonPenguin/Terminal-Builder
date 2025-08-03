@@ -21,26 +21,14 @@ Add each command as an object with a `prompt` string and the matching `response`
 | `response` | string | The terminal’s response to the prompt | Yes |
 
 ## Example
-
-```json
-{
-    "commands": [
-        {
-            "prompt": "hello",
-            "response": "hi there!"
-        },
-        {
-            "prompt": "whoami",
-            "response": "you are a guest user"
-        },
-        {
-            "prompt": "whereami",
-            "response": "you are here"
-        },
-        {
-            "prompt": "what is this",
-            "response": "this is terminal builder"
-        }
-    ]
-}
+```yaml
+commands:
+  - prompt: "hello"
+    response: "hi there!"
+  - prompt: "whoami"
+    response: "you are a guest user"
+  - prompt: "whereami"
+    response: "you are here"
+  - prompt: "what is this"
+    response: "this is terminal builder"
 ```

@@ -1,3 +1,5 @@
+* * *
+
 # The Input Block
 
 ## Quick Facts
@@ -23,13 +25,9 @@ Customize the prompt prefix, placeholder text, and message shown when an unknown
 
 
 ## Example
-
-```json
-{
-    "input": {
-        "prefix": "$",
-        "unknownCommandMessage": "Huh? Command not recognized!",
-        "placeholder": "Type your command here..."
-    }
-}
+```yaml
+input:
+  prefix: "$"
+  unknownCommandMessage: "Huh? Command not recognized!"
+  placeholder: "Type your command here..."
 ```

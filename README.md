@@ -4,11 +4,11 @@
 </p>
 
 
-Create terminal interfaces across console, web, and app with just 1 JSON file
+Create terminal interfaces across console, web, and app with just 1 YAML file
 
 # Features
 
-- Create your own terminal in just 1 JSON file. No organizational headaches
+- Create your own terminal in just 1 YAML file. No organizational headaches
 - Easy to use and learn
 - Can output in the console (eg. Windows Powershell), in a window (using Electron) or in the browser (using Serve)
 
@@ -28,7 +28,7 @@ npm install trmbuild
 
 ## 2. Try it out
 
-Refer to our [docs](./docs/) for detailed instructions on writing terminal JSON. Or simply copy the [`terminal.json`](./terminal.json) file from the repo root and place it anywhere within your project where terminal-builder (trmbuild) is installed.
+Refer to our [docs](./docs/) for detailed instructions on writing terminal.yaml . Or simply copy the [`terminal.yaml`](./terminal.yaml) file from the repo root and place it anywhere within your project where terminal-builder (trmbuild) is installed.
 
 Once installed, build the ui
 ```bash

@@ -7,12 +7,28 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+---
+
+## [2.0.0] - 2025-08-03
+
+### Added
+
+- YAML configuration support for improved readability and simplicity.
+
+### Changed
+
+- Switched configuration format from `.json` to `.yml`.
+  - All configuration files must now be written in YAML instead of JSON.
+  - Internally, parsing is now handled by `js-yaml`.
+
+
 ### Fixed
 
 - Electron window error by re-adding main to `package.json`
+
 ---
 
-## [1.2.1] -2025-08-03
+## [1.2.1] - 2025-08-03
 
 ### Added
 

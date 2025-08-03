@@ -2,14 +2,15 @@ import { prefix, unknownMessage, placeholder} from "./input.js";
 import { selectedTheme } from "../ui/themes/themes.js";
 import { getParsedConfig } from "../utils/parseTerminalConfig.js";
 import { mode } from "../utils/findMode.js";
+import { shared } from "../utils/selectShared.js"
 import fs from 'fs';
 import path from 'path';
 
 const parsedConfig = getParsedConfig();
 
 const html = `
-  <div style="background-color: ${selectedTheme.backgroundColor}; color: ${selectedTheme.color}; padding: 10px; font-family: monospace;">
-    <h1>${parsedConfig[mode]?.title || "Untitled Terminal"}</h1>
+  <div style="background-color: ${shared?.backgroundColor || selectedTheme.backgroundColor}; color: ${selectedTheme.color}; padding: 10px; font-family: monospace;">
+    <h1>${shared?.title || parsedConfig[mode]?.title || "Untitled Terminal"}</h1>
     <div class="terminal-body" id="terminal-body">
       <div>${prefix} Welcome to Terminal Builder!</div>
     </div>
@@ -38,7 +39,7 @@ const html = `
   </div>
 `;
 
-const DesktopDir = path.join(process.cwd(), 'src', 'ui', 'desktop');
+const DesktopDir = path.join(process.cwd(), 'src', 'ui', 'window');
 if (!fs.existsSync(DesktopDir)) {
   fs.mkdirSync(DesktopDir);
 }

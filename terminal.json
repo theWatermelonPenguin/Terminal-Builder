@@ -1,7 +1,13 @@
 {
+  "shared": {
+    "title": "the shared system"
+  },
   "console": {
     "title": "The system",
     "theme": "green"
+  },
+  "window": {
+    "theme": "blue"
   },
   "input": {
     "prefix": "$",

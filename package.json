@@ -1,6 +1,6 @@
 {
   "name": "trmbuild",
-  "version": "1.1.1",
+  "version": "1.2.1",
   "description": "Terminal Builder - Create terminal interfaces across console, web, and app with just 1 JSON file",
   "scripts": {
     "trmbuild:console": "node src/console.js",

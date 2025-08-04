@@ -1,3 +1,12 @@
+# 2.0.0 (2025-08-04)
+
+
+### Bug Fixes
+
+* removed top level cangelog entry to see if ci works ([1293b7b](https://github.com/theWatermelonPenguin/Terminal-Builder/commit/1293b7b7c1f8803dfa5c937750b529aa7921f784))
+
+
+
 # Changelog
 
 All notable changes to this project will be documented in this file.

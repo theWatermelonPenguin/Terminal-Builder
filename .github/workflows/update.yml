@@ -1,37 +1,32 @@
-name: Update Changelog
+name: Auto Update Changelog
 
 on:
   push:
     branches:
-      - master
+      - master  # or main, adjust as needed
   pull_request:
 
 jobs:
-  changelog:
+  update-changelog:
     runs-on: ubuntu-latest
     permissions:
-      contents: write
+      contents: write  # needed to push commits
 
     steps:
-      - uses: actions/checkout@v4
-        with:
-          fetch-depth: 0   # fetch full history and tags
+      - name: Checkout repo
+        uses: actions/checkout@v4
+        with: 
+            fetch-depth: 0       # fetch entire history
 
-      - name: Set up Node.js
+      - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
           node-version: 20
 
-      - name: Install dependencies
-        run: npm ci
+      - name: Run changelog update script
+        run: npm run clit
 
-      - name: Generate changelog for Unreleased only
-        run: npx conventional-changelog -p angular -i CHANGELOG.md -s --release-count 0
-
-      - name: Show updated changelog
-        run: cat CHANGELOG.md
-
-      - name: Commit changelog if changed
+      - name: Commit updated changelog
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"

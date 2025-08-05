@@ -1,31 +1,69 @@
-# [2.0.0](https://github.com/theWatermelonPenguin/Terminal-Builder/compare/v1.2.1...v2.0.0) (2025-08-03)
+# Changelog
+
+All notable changes to this project will be documented in this file.
+
+The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),  
+and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
+
+## [Unreleased]
+
+### Added
+
+- Github Actions workflow to automate changelog generation
+
+---
+
+## [2.0.0] - 2025-08-03
+
+### Added
+
+- YAML configuration support for improved readability and simplicity.
+
+### Changed
+
+- Switched configuration format from .json to .yml.
+  - All configuration files must now be written in YAML instead of JSON.
+  - Internally, parsing is now handled by js-yaml.
 
 
-### Bug Fixes
+### Fixed
 
-* fixed electron main issues ([ffd0216](https://github.com/theWatermelonPenguin/Terminal-Builder/commit/ffd0216e680bb769013605dc2b748a356110f622))
+- Electron window error by re-adding main to package.json
 
+---
 
+## [1.2.1] - 2025-08-03
 
-## [1.2.1](https://github.com/theWatermelonPenguin/Terminal-Builder/compare/v1.1.1...v1.2.1) (2025-08-03)
+### Added
 
+- New "shared" block for using configurations across all 3 output modes
+- Documentation for new "shared" block
+- Terminal Builder SVG icon on README for visual quality
+
+### Fixed
+
+- Fixed minor grammar issues in the README
+---
+
+## [1.1.1] - 2025-08-02
 
 ### Features
+- Replaced serve with http-server to fix security vulnerabilities and improve development setup.
 
-* added new shared block ([7508860](https://github.com/theWatermelonPenguin/Terminal-Builder/commit/7508860b28918e4e41933c73f5e4c4571a6cff53))
+---
 
+## [1.0.1] 2025-08-1
 
+### Added
 
-## [1.1.1](https://github.com/theWatermelonPenguin/Terminal-Builder/compare/v1.0.1...v1.1.1) (2025-08-02)
+- Publish to npm CI
+- Brand new documentation for the "output" block, "input" block, and "command" block
 
+---
 
-### Features
+## [1.0.0] 2025-07-31
 
-* replace serve with http-server to fix security vulnerabilities ([6337cd4](https://github.com/theWatermelonPenguin/Terminal-Builder/commit/6337cd4c4f5ad1f1b992cd3eba65c0d06bc35f17))
+### Added 
 
-
-
-## 1.0.1 (2025-08-02)
-
-
-
+- Initial release of Terminal Builder v1.0.0.
+- Console, window, and web build commands.

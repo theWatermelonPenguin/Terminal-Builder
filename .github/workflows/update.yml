@@ -23,8 +23,6 @@ jobs:
         with:
           node-version: 20
 
-      - name: Install package
-        run: npm install @thewatermelonpenguin/changelog-it@1.0.0
       - name: Run changelog update script
         run: npx @thewatermelonpenguin/changelog-it 
 

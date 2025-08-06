@@ -22,7 +22,6 @@
   "license": "MIT",
   "type": "module",
   "dependencies": {
-    "@thewatermelonpenguin/changelog-it": "^1.0.0",
     "chalk": "^5.4.1",
     "electron": "^37.1.0",
     "http-server": "^14.1.1",

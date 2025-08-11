@@ -1,6 +1,6 @@
 shared:
   title: "the shared title"
-  theme: blue
+  theme: rizzy
 
 window:
   theme: green

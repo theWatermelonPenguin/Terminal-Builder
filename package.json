@@ -7,7 +7,8 @@
     "trmbuild:console": "node src/console.js",
     "trmbuild:window": "electron . src/window.js",
     "trmbuild:web": "http-server src/ui/web",
-    "trmbuild:ui": "node src/components/writeUI.js"
+    "trmbuild:ui": "node src/components/writeUI.js",
+    "trmbuild:theme": "node src/ui/themes/writeThemes.js"
   },
   "keywords": [
     "terminal",

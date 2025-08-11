@@ -12,6 +12,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - add red, purple, and yellow themes for terminal UI
 
 ### Changed
+- updated readme
 - switched from conventional changelog it changelog-it for auto generated changelogs
 
 ### Fixed

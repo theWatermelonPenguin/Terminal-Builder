@@ -47,6 +47,7 @@ npm run trmbuild:window
 |trmbuild:console|Launches console version|
 |trmbuild:window|Opens UI in Electron|
 |trmbuild:web|Serves UI in the browser|
+|trmbuild:theme|Adds your custom themes to the themes list (documentation coming soon)|
 
 # License
 MIT License. Please read the [LICENSE.md](./LICENSE.md) for more details

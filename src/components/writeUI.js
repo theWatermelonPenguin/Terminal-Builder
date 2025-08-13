@@ -3,6 +3,7 @@ import { selectedTheme } from "../ui/themes/themes.js";
 import { getParsedConfig } from "../utils/parseTerminalConfig.js";
 import { mode } from "../utils/findMode.js";
 import { shared } from "../utils/selectShared.js"
+import { workingDir } from "./workingDir.js";
 import fs from 'fs';
 import path from 'path';
 import yaml from "js-yaml";
@@ -17,6 +18,7 @@ const html = `
     </div>
     <div>
       <span id="input-prefix">${prefix}</span>
+      <span>${workingDir}</span>
       <input type="text" id="terminal-input" placeholder="${placeholder}" autofocus />
     </div>
     <script>
